@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wire"
+    >
+    <TextView android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="fill_parent" android:text="@string/hello"></TextView>
+   
+     <Button
+            android:id="@+id/start"
+            android:layout_width="475px"
+            android:layout_height="40dp"
+            android:layout_marginTop="250dp"
+            android:text="Start Capturing"
+            android:textColor="#00000000" />
+     
+      <Button
+            android:id="@+id/stop"
+            android:layout_width="475px"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="Stop Capturing"
+            android:textColor="#00000000" />
+      
+      <Button
+            android:id="@+id/view"
+            android:layout_width="475px"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:text="View Captured"
+            android:textColor="#00000000" />
+
+    
+
+</LinearLayout>
+
